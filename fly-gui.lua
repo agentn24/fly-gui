@@ -17,8 +17,8 @@ local function fly()
     
     while flying do
         local camera = workspace.CurrentCamera
-        local direction = (camera.CFrame.LookVector) * speed -- Use camera direction for flight
-        bodyVelocity.Velocity = Vector3.new(direction.X, 50, direction.Z) -- Set vertical velocity to 50 for flying height
+        local direction = (camera.CFrame.LookVector) * speed
+        bodyVelocity.Velocity = Vector3.new(direction.X, 50, direction.Z) 
         wait(0.1)
     end
     
