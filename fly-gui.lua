@@ -30,5 +30,5 @@ script.Parent.TouchTap:Connect(function()
     flying = not flying
     if flying then
         fly()
-        end)
+        end
 end
