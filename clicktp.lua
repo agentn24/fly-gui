@@ -1,5 +1,5 @@
 local UserInputService = game:GetService("UserInputService")
-local TextButton = script.Parent -- Assuming the TextButton is the parent of this script
+local TextButton = script.Parent
 
 local isTeleportEnabled = false
 
