@@ -1,0 +1,17 @@
+sound = Instance.new("Sound",workspace)
+sound.Name = "Noooooooooooooooot noooooooooooooooooooooooot"
+sound.SoundId = "rbxassetid://6070263388"
+sound:Play()
+sound.Looped = true
+repeat
+wait(0.01)
+until sound.IsLoaded == true
+wait(13)
+de = Instance.new("DistortionSoundEffect",sound)
+de.Level = 0.8
+sky = Instance.new("Sky",game:GetService("Lighting"))
+sky.SkyboxBk = "http://www.roblox.com/asset/?id=103555910860905"
+sky.SkyboxFt = "http://www.roblox.com/asset/?id=103555910860905"
+sky.SkyboxLf = "http://www.roblox.com/asset/?id=103555910860905"
+sky.SkyboxRt = "http://www.roblox.com/asset/?id=103555910860905"
+sky.SkyboxUp = "http://www.roblox.com/asset/?id=103555910860905"
